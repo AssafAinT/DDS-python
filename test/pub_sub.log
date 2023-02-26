@@ -1,0 +1,624 @@
+2023-02-23 14:27:13,528 - myPubSub_logger - INFO - Registering 127.0.0.1, 53077
+2023-02-23 14:27:20,990 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:27:23,002 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:27:25,008 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:27:27,020 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:27:29,029 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:27:31,030 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:27:33,045 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:27:33,546 - myPubSub_logger - INFO - Registering 127.0.0.1, 53079
+2023-02-23 14:27:35,053 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:27:35,086 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:36,088 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:37,058 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:27:37,090 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:38,096 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:39,065 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:27:39,112 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:40,127 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:41,067 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:27:41,131 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:42,135 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:43,075 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:27:43,137 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:44,152 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:45,080 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:27:45,158 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:46,159 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:47,082 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:27:47,160 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:48,175 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:49,089 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:27:49,184 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:49,184 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:50,190 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:50,191 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:51,102 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:27:51,197 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:27:51,197 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:29:21,204 - myPubSub_logger - INFO - Registering 127.0.0.1, 49392
+2023-02-23 14:29:29,274 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:29:31,286 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:29:33,290 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:29:35,295 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:29:37,306 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:29:39,321 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:29:41,220 - myPubSub_logger - INFO - Registering 127.0.0.1, 58208
+2023-02-23 14:29:41,329 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:29:42,376 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:29:43,333 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:29:43,382 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:29:44,394 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:29:45,346 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:29:45,407 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:29:46,409 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:29:47,349 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:29:47,413 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:29:48,421 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:29:49,359 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:29:49,436 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:29:50,450 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:29:51,374 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:29:51,453 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:29:52,469 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:29:52,469 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:29:59,843 - myPubSub_logger - INFO - Registering 127.0.0.1, 49629
+2023-02-23 14:30:06,156 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:30:08,161 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:30:10,167 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:30:12,180 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:30:14,185 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:30:16,187 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:30:17,234 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:30:46,198 - myPubSub_logger - INFO - Registering 127.0.0.1, 62785
+2023-02-23 14:30:54,143 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:30:56,153 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:30:58,154 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:00,163 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:01,213 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:02,165 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:02,228 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:03,246 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:04,169 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:04,247 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:05,253 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:06,177 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:06,255 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:07,268 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:08,187 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:08,281 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:09,282 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:10,187 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:10,297 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:11,312 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:12,189 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:12,315 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:13,318 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:14,194 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:14,334 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:15,335 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:16,195 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:16,337 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:17,339 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:18,202 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:18,341 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:19,346 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:20,211 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:20,352 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:21,359 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:22,218 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:22,374 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:23,390 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:24,230 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:24,401 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:25,406 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:26,232 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:26,420 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:27,421 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:28,238 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:28,427 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:29,433 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:30,246 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:30,436 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:31,443 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:32,256 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:32,444 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:33,448 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:34,263 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:34,451 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:35,459 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:36,270 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:36,471 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:37,477 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:38,282 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:38,486 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:39,490 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:40,292 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:40,497 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:41,499 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:42,296 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:42,501 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:43,506 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:44,302 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:44,520 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:45,521 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:46,302 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:46,536 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:47,550 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:48,315 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:48,565 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:49,566 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:50,316 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:50,582 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:51,585 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:52,324 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:52,591 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:53,594 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:54,333 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:54,599 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:55,614 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:56,347 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:56,617 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:57,631 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:58,353 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:31:58,647 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:31:59,652 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:00,358 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:00,657 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:01,661 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:02,370 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:02,667 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:03,674 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:04,384 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:04,681 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:05,689 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:06,392 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:06,690 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:07,695 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:08,401 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:08,698 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:09,703 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:10,404 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:10,703 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:11,707 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:12,415 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:12,715 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:13,721 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:14,427 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:14,726 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:15,733 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:16,439 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:16,737 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:17,741 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:18,449 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:18,746 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:19,750 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:20,452 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:20,751 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:21,756 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:22,461 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:22,758 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:23,763 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:24,471 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:24,770 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:25,783 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:26,475 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:26,788 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:27,797 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:28,485 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:28,801 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:29,810 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:30,498 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:30,825 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:31,827 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:32,499 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:32,830 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:33,833 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:34,506 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:34,833 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:35,839 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:36,522 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:36,841 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:37,850 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:38,528 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:38,854 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:39,858 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:40,534 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:40,865 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:41,880 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:42,542 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:42,886 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:43,901 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:44,554 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:44,917 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:45,918 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:46,561 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:46,921 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:47,924 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:48,563 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:48,936 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:49,938 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:50,565 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:50,940 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:51,943 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:52,570 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:52,944 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:53,950 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:54,580 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:54,954 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:55,969 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:56,591 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:56,983 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:57,989 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:32:58,594 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:32:58,999 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:00,004 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:00,599 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:01,006 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:02,008 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:02,606 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:03,013 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:04,014 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:04,621 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:05,028 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:06,031 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:06,628 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:07,035 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:08,036 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:08,634 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:09,045 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:10,046 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:10,642 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:11,052 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:12,054 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:12,652 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:13,056 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:14,059 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:14,665 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:15,072 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:16,074 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:16,668 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:17,076 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:18,085 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:18,684 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:19,092 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:20,107 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:20,698 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:21,121 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:22,125 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:22,704 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:23,131 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:24,132 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:24,713 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:25,147 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:26,158 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:26,725 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:27,162 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:28,164 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:28,728 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:29,169 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:30,173 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:30,739 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:31,180 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:32,186 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:32,754 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:33,193 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:34,194 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:34,757 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:35,207 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:36,212 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:36,763 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:37,217 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:38,232 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:38,769 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:39,241 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:40,244 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:40,777 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:41,250 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:42,257 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:42,789 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:43,260 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:44,275 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:44,793 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:45,281 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:46,285 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:46,801 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:47,289 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:48,302 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:48,817 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:49,316 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:50,330 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:50,830 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:51,331 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:52,335 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:52,837 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:53,344 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:54,348 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:54,849 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:55,363 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:56,376 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:56,860 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:57,390 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:58,393 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:33:58,866 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:33:59,400 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:34:00,405 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:34:00,876 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:34:01,411 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:34:02,415 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:34:02,883 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:34:03,430 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:34:04,432 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:34:04,889 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:34:05,437 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:34:06,450 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:34:06,902 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:34:07,460 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:34:08,468 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:34:08,906 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:34:09,483 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:34:17,426 - myPubSub_logger - INFO - Registering 127.0.0.1, 65402
+2023-02-23 14:34:24,498 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:34:26,506 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:34:27,435 - myPubSub_logger - INFO - got unregister request from 127.0.0.1,65402 
+2023-02-23 14:34:28,518 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:34:30,526 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:34:32,531 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:34:34,541 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:34:36,557 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:34:38,569 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:34:40,580 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:34:42,590 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:34:44,599 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:35:32,543 - myPubSub_logger - INFO - Registering 127.0.0.1, 54469
+2023-02-23 14:35:40,134 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:35:42,145 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:35:42,554 - myPubSub_logger - INFO - got unregister request from 127.0.0.1,54469 
+2023-02-23 14:35:44,160 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:35:46,172 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:35:48,173 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:35:50,189 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:35:52,196 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:35:54,207 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:35:56,209 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:36:33,714 - myPubSub_logger - INFO - Registering 127.0.0.1, 53071
+2023-02-23 14:36:41,802 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:36:43,807 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:36:43,807 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:36:44,808 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:36:45,814 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:36:45,815 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:36:46,820 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:36:47,824 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:36:47,824 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:36:48,827 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:36:49,833 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:36:49,833 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:36:50,842 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:36:51,842 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:36:51,842 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:36:52,858 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:36:53,844 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:36:53,859 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:36:54,872 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:36:55,856 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:36:55,885 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:36:56,901 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:36:57,872 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:36:57,904 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:36:58,904 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:36:59,873 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:36:59,920 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:37:00,932 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:37:01,888 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:01,935 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:37:02,942 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:37:03,904 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:03,952 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:37:04,966 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:37:05,925 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:05,981 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:37:06,996 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:37:07,934 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:07,996 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:37:09,001 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:37:09,937 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:10,015 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:37:11,030 - myPubSub_logger - ERROR - Exception [WinError 10054] An existing connection was forcibly closed by the remote host caught in PUB.publisher
+2023-02-23 14:37:16,298 - myPubSub_logger - INFO - Registering 127.0.0.1, 64549
+2023-02-23 14:37:24,065 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:26,081 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:26,300 - myPubSub_logger - INFO - got unregister request from 127.0.0.1,64549 
+2023-02-23 14:37:28,095 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:30,096 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:32,100 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:34,112 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:36,117 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:38,126 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:40,137 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:42,144 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:44,150 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:46,159 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:48,169 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:50,176 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:52,181 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:54,195 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:56,204 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:37:58,206 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:00,211 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:02,218 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:04,234 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:06,237 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:08,246 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:10,254 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:12,256 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:14,263 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:16,271 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:18,286 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:20,290 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:22,302 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:24,314 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:26,325 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:28,330 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:30,334 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:32,346 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:34,347 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:36,354 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:38,367 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:40,368 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:42,374 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:44,376 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:46,381 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:48,387 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:50,402 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:52,412 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:54,427 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:56,434 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:38:58,447 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:00,455 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:02,456 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:04,463 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:06,477 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:08,490 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:10,492 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:12,496 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:14,505 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:16,508 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:18,514 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:20,516 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:22,530 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:24,545 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:26,545 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:28,550 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:30,556 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:32,563 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:34,578 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:36,591 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:38,598 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:40,599 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:42,615 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:44,620 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:46,624 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:48,632 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:50,634 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:52,647 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:54,661 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:56,664 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:39:58,675 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:00,684 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:02,694 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:04,708 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:06,711 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:08,714 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:10,727 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:12,728 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:14,728 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:16,733 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:18,742 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:20,746 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:22,749 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:24,754 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:26,760 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:28,765 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:30,779 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:32,795 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:34,802 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:36,812 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:38,818 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:40,830 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:42,845 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:44,851 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:46,857 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:48,865 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:50,872 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:52,889 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:54,905 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:56,920 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:40:58,928 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:00,933 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:02,936 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:04,952 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:06,956 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:08,956 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:10,967 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:12,980 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:14,991 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:17,005 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:19,015 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:21,025 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:23,040 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:25,050 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:27,058 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:29,062 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:31,067 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:33,075 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:35,085 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:37,086 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:39,089 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:41,099 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:43,108 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:45,113 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:47,115 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:49,117 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:51,129 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:53,136 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:55,147 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:57,156 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:41:59,169 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:01,184 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:03,189 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:05,199 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:07,214 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:09,225 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:11,230 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:13,243 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:15,248 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:17,252 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:19,262 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:21,268 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:23,275 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:25,280 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:27,291 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:29,296 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:31,298 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:33,308 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:35,311 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:37,322 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:39,338 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:41,353 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:43,359 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:45,364 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:47,379 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:49,390 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:51,395 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:42:59,323 - myPubSub_logger - INFO - Registering 127.0.0.1, 62424
+2023-02-23 14:43:06,679 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:43:08,684 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:43:09,326 - myPubSub_logger - INFO - got unregister request from 127.0.0.1,62424 
+2023-02-23 14:43:10,699 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:43:12,713 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:43:14,718 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:43:16,721 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:43:18,725 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:43:19,338 - myPubSub_logger - INFO - Registering 127.0.0.1, 56460
+2023-02-23 14:43:20,739 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:43:22,741 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:43:24,746 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:43:26,749 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:43:28,765 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:43:30,774 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:43:32,779 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:43:34,351 - myPubSub_logger - INFO - got unregister request from 127.0.0.1,56460 
+2023-02-23 14:43:34,792 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:43:36,801 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:43:38,807 - myPubSub_logger - ERROR - Key Error: 'circle'
+2023-02-23 14:43:51,917 - myPubSub_logger - INFO - Registering 127.0.0.1, 55434
+2023-02-23 14:43:51,918 - myPubSub_logger - INFO - Registering 127.0.0.1, 55434
+2023-02-23 14:43:54,542 - myPubSub_logger - INFO - Registering 127.0.0.1, 55435
+2023-02-23 14:44:01,922 - myPubSub_logger - INFO - got unregister request from 127.0.0.1,55434 
+2023-02-23 14:44:04,559 - myPubSub_logger - INFO - got unregister request from 127.0.0.1,55435 
+2023-02-23 14:44:06,928 - myPubSub_logger - INFO - got unregister request from 127.0.0.1,55434 
+2023-02-23 14:44:14,564 - myPubSub_logger - INFO - Registering 127.0.0.1, 50640
+2023-02-23 14:44:16,933 - myPubSub_logger - INFO - got unregister request from 127.0.0.1,55434 
+2023-02-23 14:44:16,933 - myPubSub_logger - INFO - got unregister request from 127.0.0.1,55434 
+2023-02-23 14:44:29,567 - myPubSub_logger - INFO - got unregister request from 127.0.0.1,50640 
