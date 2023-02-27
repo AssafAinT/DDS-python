@@ -10,14 +10,16 @@ def main() -> int:
     sub2 = Subscriber(v2, 9999)
     sub2.Subscribe(server_port)
 
-    time.sleep(10)
-    sub2.UnSubscribe([ShapeType.CIRCLE])
-
-    time.sleep(5)
-    sub2.AddShape([ShapeType.CIRCLE])
-    time.sleep(10)
-    sub2.UnSubscribe()
-    time.sleep(10)
+    # time.sleep(10)
+    # sub2.UnSubscribe([ShapeType.CIRCLE])
+    #
+    # time.sleep(5)
+    # sub2.AddShape([ShapeType.CIRCLE])
+    # time.sleep(10)
+    # sub2.UnSubscribe()
+    # time.sleep(10)
+    # the print dosent show up by the freq because of the multi threaded system
+    time.sleep(30)
     return 0
 
 

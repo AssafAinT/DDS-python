@@ -6,7 +6,7 @@ class ISubscribe(ABC):
         self._subscriber_port = None
         self._sub_is_running = False
         self._publisher_address = None
-        self._sock = None
+        self._mc_sock = None
         self._thread = None
 
     @abstractmethod

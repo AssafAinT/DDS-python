@@ -2,7 +2,7 @@ import atexit
 import socket
 import threading
 import time
-from typing import List
+from typing import List, Dict, Tuple
 from dataclasses import dataclass
 from PUB.IPub import IPublisher
 from common.util import Util
@@ -36,6 +36,8 @@ class Publisher(IPublisher):
         #  in order to allow gracefull shutdown
         self._recv_thread.daemon = True
         self._pub_params = pub_params  # concrete property
+        self._tcp_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self._tcp_sub_conn = {}
         MyLogger.Init("myPubSub_logger", "../Log/pub.log")
 
         self._Execute()
@@ -45,8 +47,10 @@ class Publisher(IPublisher):
         """
         Closes the socket.
         """
-        if not self._sock_fd:
+        if self._sock_fd:
             self._sock_fd.close()
+        if self._tcp_sock:
+            self._tcp_sock.close()
 
     def Publish(self) -> None:
         self._is_publishing = True
@@ -98,15 +102,10 @@ class Publisher(IPublisher):
                 if not read_n_bytes:
                     logging.error("Failed to receive message")
                     raise RuntimeError("Failed to receive message")
-                type_of_command, shape_type = \
-                    Util.DeserializeJson(read_n_bytes.decode('utf-8'))
-
-                if type_of_command == 'register':
-                    self._RegisterSub(shape_type, src_addr)
-                elif type_of_command == 'unregister':
-                    self._UnRegisterSub(shape_type, src_addr)
-                else:
-                    logging.error("User tried using invalid request")
+                dict_info = Util.DeserializeJson(read_n_bytes.decode('utf-8'))
+                logging.debug(read_n_bytes)
+                # block of code in HandleData
+                self._HandleData(dict_info, src_addr)
 
             except Exception as e:
                 logging.error(f"Exception {e} caught in"
@@ -166,3 +165,26 @@ class Publisher(IPublisher):
                      f"{addr[1]} ")
         if shape_type in self._sub_map and addr in self._sub_map[shape_type]:
             self._sub_map[shape_type].remove((addr[0], addr[1]))
+
+    def _HandleData(self, dict_info: Dict, src_addr: Tuple) -> None:
+
+        """
+        Function to handle the parsed data from the registration request
+        sent by MC_udp
+        :param dict_info: dictionary of information relevant for process
+        :param src_addr: adress to register the client -
+        will be changed with proper udp
+        :return:
+        """
+        if dict_info['request'] == 'register':
+            self._RegisterSub(dict_info['shape'], src_addr)
+        elif dict_info['request'] == 'unregister':
+            self._UnRegisterSub(dict_info['shape'], src_addr)
+        else:
+            logging.error("User tried using invalid request")
+
+        Util.SendAckToSub(self._tcp_sock, dict_info['tcp_ip'],
+                          dict_info['tcp_port'], self._tcp_sub_conn)
+        logging.info(f"added {dict_info['tcp_ip']} to the ditionary: "
+                     f"{self._tcp_sub_conn}")
+        self._tcp_sub_conn[dict_info['tcp_ip']] = dict_info['tcp_port']

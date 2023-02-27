@@ -1,7 +1,7 @@
 import json
 import socket
 import struct
-from typing import Tuple, Dict
+from typing import Tuple, Dict, Optional
 from data.factory_shape import *
 
 
@@ -15,21 +15,23 @@ class Util(object):
     max_buf_size = 1024
 
     @staticmethod
-    def Deserialize(root: dict) -> Tuple[str, str]:
+    def Deserialize(root: dict) -> List:
         """
         dissolving the json packet into objects that can be managed by the publishers
         :param root:
         :return: a command - register/unregister and the
         shape that the command is bound to
         """
-
-        type_of_command = root['request']
-        shape_type_str = root['shape']
-
-        return type_of_command, shape_type_str
+        pass
+        # type_of_command = root['request']
+        # shape_type_str = root['shape']
+        # list_to_return = [root['request'], root['shape'],
+        #                   root['tcp_port'], root['tcp_ip']]
+        # return type_of_command, shape_type_str
+        # return list_to_return
 
     @staticmethod
-    def DeserializeJson(json_str: str) -> Tuple[str,  str]:
+    def DeserializeJson(json_str: str) -> Dict:
         """
         the function deserialize the json str into json object and then
         pass to dissolve intro smaller objects that publisher can manage
@@ -37,9 +39,10 @@ class Util(object):
         :param json_str: the str that was encoded from the socket
         :return: the Tuple from deserialize
         """
-        root = json.loads(json_str)
+        # root = json.loads(json_str)
 
-        return Util.Deserialize(root)
+        # return Util.Deserialize(root)
+        return json.loads(json_str)
 
     @staticmethod
     def Serialize(shape_type: ShapeType, params: List) -> str:
@@ -59,7 +62,8 @@ class Util(object):
 
     @staticmethod
     def SendRegisterRequest(sock_fd: socket, publisher_address: tuple,
-                              shape_list: List[ShapeType]) -> None:
+                              shape_list: List[ShapeType], tcp_port: int,
+                            tcp_ip: str) -> None:
         """
         send the register request/requests to the publisher
         according to amount of shapes
@@ -69,7 +73,8 @@ class Util(object):
         :return:None
         """
         for shape_type in shape_list:
-            json_message = {"request": "register", "shape": shape_type}
+            json_message = {"request": "register", "shape": shape_type,
+                            "tcp_port": tcp_port, "tcp_ip": tcp_ip}
             message = json.dumps(json_message).encode()
             try:
                 sock_fd.sendto(message, publisher_address)
@@ -98,6 +103,13 @@ class Util(object):
                 print(f"Failed to send unregister message: {e}")
                 sock_fd.close()
                 return
+
+    @staticmethod
+    def TcpSockInit(ip_addr: str, port_num: int) -> socket:
+        sock_fd = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        sock_fd.bind((ip_addr, port_num))
+
+        return sock_fd
 
     @staticmethod
     def sock_init(ip_addr: str, port_num: int) -> Tuple[socket.socket, tuple]:
@@ -169,3 +181,10 @@ class Util(object):
                                       socket.INADDR_ANY)
         sock_fd.setsockopt(socket.IPPROTO_IP,
                                  socket.IP_ADD_MEMBERSHIP, multicast_group)
+
+    @staticmethod
+    def SendAckToSub(tcp_sock: socket, ip_addr: str, port_num: int,
+                     tcp_sub_conn: Optional[Dict] = None) -> None:
+        if tcp_sub_conn is None or ip_addr not in tcp_sub_conn:
+            tcp_sock.connect((ip_addr, port_num))
+        tcp_sock.send(b'ACK')
