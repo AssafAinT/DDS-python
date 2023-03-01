@@ -1,8 +1,23 @@
 import json
 import socket
 import struct
+from dataclasses import dataclass
 from typing import Tuple, Dict, Optional
 from data.factory_shape import *
+
+
+@dataclass
+class PublisherParams:
+    shape_type: ShapeType
+    freq: int
+    params: list
+
+
+@dataclass
+class SubscriberParams:
+    shape_types: List[ShapeType]
+    subscriber_udp_recv_port_num: int
+
 
 
 class Util(object):
@@ -13,22 +28,9 @@ class Util(object):
 
     group_ip_publishers = '239.255.0.1'
     max_buf_size = 1024
-
-    @staticmethod
-    def Deserialize(root: dict) -> List:
-        """
-        dissolving the json packet into objects that can be managed by the publishers
-        :param root:
-        :return: a command - register/unregister and the
-        shape that the command is bound to
-        """
-        pass
-        # type_of_command = root['request']
-        # shape_type_str = root['shape']
-        # list_to_return = [root['request'], root['shape'],
-        #                   root['tcp_port'], root['tcp_ip']]
-        # return type_of_command, shape_type_str
-        # return list_to_return
+    time_interval = 10
+    select_timeout = 3
+    threshold = 3
 
     @staticmethod
     def DeserializeJson(json_str: str) -> Dict:
@@ -61,20 +63,23 @@ class Util(object):
         return json.dumps(message)
 
     @staticmethod
-    def SendRegisterRequest(sock_fd: socket, publisher_address: tuple,
-                              shape_list: List[ShapeType], tcp_port: int,
-                            tcp_ip: str) -> None:
+    def SendRegisterRequest(sock_fd: socket,
+                            publisher_address: tuple,
+                            sub_params: SubscriberParams,
+                            subscriber_udp_recv_ip) -> None:
         """
         send the register request/requests to the publisher
         according to amount of shapes
         :param sock_fd: subscriber active socket
         :param publisher_address: where to send
-        :param shape_list: the list of shapes that needs to be registered
+        :param sub_params: subscriber adjustable params
         :return:None
         """
-        for shape_type in shape_list:
-            json_message = {"request": "register", "shape": shape_type,
-                            "tcp_port": tcp_port, "tcp_ip": tcp_ip}
+        for shape_type in sub_params.shape_types:
+            json_message = {"request": "register",
+                            "shape": shape_type,
+                            "udp_port": sub_params.subscriber_udp_recv_port_num,
+                            "udp_ip": subscriber_udp_recv_ip }
             message = json.dumps(json_message).encode()
             try:
                 sock_fd.sendto(message, publisher_address)
@@ -84,18 +89,23 @@ class Util(object):
                 return
 
     @staticmethod
-    def SendUnRegisterRequest(sock_fd: socket, shape_list: List[ShapeType],
-                                publisher_address: tuple) -> None:
+    def SendUnRegisterRequest(sock_fd: socket,
+                            publisher_address: tuple,
+                            sub_params: SubscriberParams,
+                            subscriber_udp_recv_ip) -> None:
         """
         send the unregister request/requests to the publisher
         according to amount of shapes
         :param sock_fd: subscriber active socket
         :param publisher_address: where to send
-        :param shape_list: the list of shapes that needs to be unregistered
+        :param  sub_params: subscriber adjustable params
         :return:None
         """
-        for shape_type in shape_list:
-            json_message = {"request": "unregister", "shape": shape_type}
+        for shape_type in sub_params.shape_types:
+            json_message = {"request": "unregister",
+                            "shape": shape_type,
+                            "udp_port": sub_params.subscriber_udp_recv_port_num,
+                            "udp_ip": subscriber_udp_recv_ip}
             message = json.dumps(json_message).encode()
             try:
                 sock_fd.sendto(message, publisher_address)
@@ -183,8 +193,6 @@ class Util(object):
                                  socket.IP_ADD_MEMBERSHIP, multicast_group)
 
     @staticmethod
-    def SendAckToSub(tcp_sock: socket, ip_addr: str, port_num: int,
+    def SendAckToSub(udp_unicast_sock: socket, ip_addr: str, port_num: int,
                      tcp_sub_conn: Optional[Dict] = None) -> None:
-        if tcp_sub_conn is None or ip_addr not in tcp_sub_conn:
-            tcp_sock.connect((ip_addr, port_num))
-        tcp_sock.send(b'ACK')
+        udp_unicast_sock.sendto(b'ACK', (ip_addr, port_num))
