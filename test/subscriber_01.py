@@ -15,7 +15,9 @@ def main() -> int:
 
     time.sleep(15)
     sub2.UnSubscribe([ShapeType.CIRCLE])
-    time.sleep(30)
+    time.sleep(15)
+    sub2.AddShape([ShapeType.CIRCLE])
+    time.sleep(25)
     sub2.UnSubscribe()
 
     return 0

@@ -32,10 +32,10 @@ class Subscriber(ISubscribe):
         # BIND the uni cast udp socket
         #  including the loopback interface as for client
         #  he don't need to use other
-        # self._udp_sock.bind(('192.168.1.50',
-        #                      self._sub_params.subscriber_udp_recv_port_num))
-        self._udp_sock.bind(('127.0.0.1',
+        self._udp_sock.bind(('192.168.1.50',
                              self._sub_params.subscriber_udp_recv_port_num))
+        # self._udp_sock.bind(('127.0.0.1',
+        #                      self._sub_params.subscriber_udp_recv_port_num))
         # extract the ip from the socket
         self._udp_ip = self._udp_sock.getsockname()[0]
         self._sub_is_sending_reg = False
