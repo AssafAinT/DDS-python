@@ -16,13 +16,11 @@ def main() -> int:
     # sleep in seconds
     time.sleep(10)
     sub1.AddShape([ShapeType.CIRCLE])
-    time.sleep(5)
-    print("from main: unsub square")
-    sub1.UnSubscribe([ShapeType.SQUARE])
+    # sub1.UnSubscribe([ShapeType.SQUARE])
 
     # print("subscribing again")
     # sub1.Subscribe(server_port)
-    time.sleep(15)
+    time.sleep(25)
     sub1.UnSubscribe()
 
     return 0

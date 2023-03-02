@@ -9,13 +9,13 @@ def main() -> int:
     v2: List[ShapeType] = [ShapeType.SQUARE, ShapeType.CIRCLE,
                            ShapeType.TRIANGLE]
     sub_params = SubscriberParams(shape_types=v2,
-                                  subscriber_udp_recv_port_num=9999)
+                                  subscriber_udp_recv_port_num=1001)
     sub2 = Subscriber(sub_params)
     sub2.Subscribe(server_port)
 
     time.sleep(15)
     sub2.UnSubscribe([ShapeType.CIRCLE])
-    time.sleep(10)
+    time.sleep(30)
     sub2.UnSubscribe()
 
     return 0

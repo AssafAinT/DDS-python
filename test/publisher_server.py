@@ -12,7 +12,7 @@ def main() -> int:
     try:
         pub = Publisher(server_port, publisher_params_list)
         pub.Publish()
-        time.sleep(30)  # running the notifications for 100 seconds
+        time.sleep(100)  # running the notifications for 100 seconds
         pub.Stop()
 
     except Exception as e:

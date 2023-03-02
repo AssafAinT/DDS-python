@@ -10,7 +10,7 @@ from custom_Logger.custom_logger import MyLogger
 from data.factory_shape import ShapeType
 import logging
 
-#TODO: send ack via udp and not tcp
+
 class Publisher(IPublisher):
     def __init__(self, publisher_port_num: int,
                  pub_params: List[PublisherParams]) -> None:
@@ -26,13 +26,16 @@ class Publisher(IPublisher):
         self._publisher_port_num = publisher_port_num
         self._publisher_address = ('', publisher_port_num)
         self._recv_thread = threading.Thread(target=self._RecvRequests)
-        #  in order to allow gracefull shutdown
+        #  in order to allow gracefully shutdown
         self._recv_thread.daemon = True
         self._pub_params = pub_params  # concrete property
         self._udp_unicast_sock = socket.socket(socket.AF_INET,
                                                socket.SOCK_DGRAM,
                                                socket.IPPROTO_UDP)
-        self._udp_sub_conn = {}
+        # self._udp_ack_sock = socket.socket(socket.AF_INET,
+        #                                        socket.SOCK_DGRAM,
+        #                                        socket.IPPROTO_UDP)
+        # self._udp_sub_conn = {}
         MyLogger.Init("myPubSub_logger", "../Log/pub.log")
 
         self._Execute()
@@ -46,6 +49,8 @@ class Publisher(IPublisher):
             self._sock_fd.close()
         if self._udp_unicast_sock:
             self._udp_unicast_sock.close()
+        # if self._udp_ack_sock:
+        #     self._udp_ack_sock.close()
 
     def Publish(self) -> None:
         self._is_publishing = True
@@ -113,7 +118,9 @@ class Publisher(IPublisher):
             except Exception as e:
                 function_name = inspect.currentframe().f_back.f_code.co_name
                 logging.error(
-                    f"Exception {e} caught in {function_name}() in {self._RecvRequests.__name__}")
+                    f"Exception {e} "
+                    f"caught in {function_name}() in"
+                    f" {self._RecvRequests.__name__}")
 
     def _PublishByFreq(self, shape: ShapeType, freq: int, params: List) -> None:
         shape_type = shape
@@ -152,10 +159,15 @@ class Publisher(IPublisher):
         :param addr: Address of the subscriber.
         """
         logging.info(f"Registering {addr[0]}, {addr[1]}")
-
         if shape_type not in self._sub_map:
             self._sub_map[shape_type] = []
-        self._sub_map[shape_type].append(addr)
+        if addr not in self._sub_map[shape_type]:
+            self._sub_map[shape_type].append(addr)
+            logging.debug(
+                f"Added subscriber {addr} for shape type {shape_type}")
+        else:
+            logging.debug(
+                f"Subscriber {addr} already registered for shape type {shape_type}")
 
     def _UnRegisterSub(self, shape_type: str, addr: tuple) -> None:
         """
@@ -167,9 +179,11 @@ class Publisher(IPublisher):
 
         logging.info(f"got unregister request from {addr[0]},"
                      f"{addr[1]} ")
+
         if shape_type in self._sub_map and addr in self._sub_map[shape_type]:
+            logging.debug(f"in  delte {shape_type}")
             self._sub_map[shape_type].remove((addr[0], addr[1]))
-            logging.debug(f"deleted {shape_type}")
+        logging.debug(f"deleted {shape_type}")
 
     def _HandleData(self, dict_info: Dict) -> None:
 
@@ -182,7 +196,7 @@ class Publisher(IPublisher):
         self._PreformRequest(dict_info)
         try:
             Util.SendAckToSub(self._udp_unicast_sock, dict_info['udp_ip'],
-                              dict_info['udp_port'], self._udp_sub_conn)
+                              dict_info['udp_port'])
         except Exception as e:
             logging.error(
                 f"Exception {e} "
@@ -190,11 +204,11 @@ class Publisher(IPublisher):
                 f"caught while sending ACK to subscriber"
                 f" at {dict_info['udp_ip']}:{dict_info['udp_port']}")
 
-        logging.info(f"added {dict_info['udp_ip']} to the ditionary: "
-                     f"{self._udp_sub_conn}")
-        self._udp_sub_conn[dict_info['udp_ip']] = dict_info['udp_port']
+        # logging.info(f"added {dict_info['udp_ip']} to the dictionary: "
+        #              f"{self._udp_sub_conn}")
+        # self._udp_sub_conn[dict_info['udp_ip']] = dict_info['udp_port']
 
-    def _PreformRequest(self , dict_info: Dict) -> None:
+    def _PreformRequest(self, dict_info: Dict) -> None:
         if dict_info['request'] == 'register':
             self._RegisterSub(dict_info['shape'], (dict_info['udp_ip'],
                                                    dict_info['udp_port']))

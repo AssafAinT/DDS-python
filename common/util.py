@@ -2,7 +2,7 @@ import json
 import socket
 import struct
 from dataclasses import dataclass
-from typing import Tuple, Dict, Optional
+from typing import Tuple, Dict
 from data.factory_shape import *
 
 
@@ -17,7 +17,6 @@ class PublisherParams:
 class SubscriberParams:
     shape_types: List[ShapeType]
     subscriber_udp_recv_port_num: int
-
 
 
 class Util(object):
@@ -70,6 +69,7 @@ class Util(object):
         """
         send the register request/requests to the publisher
         according to amount of shapes
+        :param subscriber_udp_recv_ip: ip of the client
         :param sock_fd: subscriber active socket
         :param publisher_address: where to send
         :param sub_params: subscriber adjustable params
@@ -79,7 +79,7 @@ class Util(object):
             json_message = {"request": "register",
                             "shape": shape_type,
                             "udp_port": sub_params.subscriber_udp_recv_port_num,
-                            "udp_ip": subscriber_udp_recv_ip }
+                            "udp_ip": subscriber_udp_recv_ip}
             message = json.dumps(json_message).encode()
             try:
                 sock_fd.sendto(message, publisher_address)
@@ -90,12 +90,13 @@ class Util(object):
 
     @staticmethod
     def SendUnRegisterRequest(sock_fd: socket,
-                            publisher_address: tuple,
-                            sub_params: SubscriberParams,
-                            subscriber_udp_recv_ip) -> None:
+                              publisher_address: tuple,
+                              sub_params: SubscriberParams,
+                              subscriber_udp_recv_ip) -> None:
         """
         send the unregister request/requests to the publisher
         according to amount of shapes
+        :param subscriber_udp_recv_ip: ip of the client
         :param sock_fd: subscriber active socket
         :param publisher_address: where to send
         :param  sub_params: subscriber adjustable params
@@ -129,7 +130,9 @@ class Util(object):
         :param port_num: publisher_port to make the tuple.
         :return:tuple that consist of socket type and server_address tuple
         """
-        sock_fd = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
+        sock_fd = socket.socket(socket.AF_INET,
+                                socket.SOCK_DGRAM,
+                                socket.IPPROTO_UDP)
         serv_addr = (ip_addr, port_num)
 
         return sock_fd, serv_addr
@@ -139,7 +142,7 @@ class Util(object):
         """
         Deserializes the JSON-encoded shape data and returns a Shape object.
 
-        :param shape_json:  A dictionary representing the JSON-encoded shape data.
+        :param shape_json: dictionary representing the JSON-encoded shape data.
         :return Shape: A Shape object representing the deserialized shape data.
         """
         # Extract the shape type from the JSON data
@@ -153,7 +156,7 @@ class Util(object):
     def SetSockToMulticast(sock_fd: socket) -> None:
         ttl = struct.pack('b', 64)
         sock_fd.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL,
-                              ttl)
+                           ttl)
         sock_fd.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_LOOP, 1)
 
         # Join the multicast group
@@ -165,7 +168,7 @@ class Util(object):
                                           Util.group_ip_publishers),
                                       socket.INADDR_ANY)
         sock_fd.setsockopt(socket.IPPROTO_IP, socket.IP_ADD_MEMBERSHIP,
-                              multicast_group)
+                           multicast_group)
 
     @staticmethod
     def SetServerSockToMulticast(sock_fd: socket, port_num: int) -> None:
@@ -177,9 +180,9 @@ class Util(object):
         sock_fd.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
         sock_fd.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL,
-                                 ttl)
+                           ttl)
         sock_fd.setsockopt(socket.IPPROTO_IP,
-                                 socket.IP_MULTICAST_LOOP, 1)
+                           socket.IP_MULTICAST_LOOP, 1)
 
         # Bind the socket to the address and port
         sock_fd.bind(('', port_num))
@@ -190,9 +193,11 @@ class Util(object):
                                           Util.group_ip_publishers),
                                       socket.INADDR_ANY)
         sock_fd.setsockopt(socket.IPPROTO_IP,
-                                 socket.IP_ADD_MEMBERSHIP, multicast_group)
+                           socket.IP_ADD_MEMBERSHIP,
+                           multicast_group)
 
     @staticmethod
-    def SendAckToSub(udp_unicast_sock: socket, ip_addr: str, port_num: int,
-                     tcp_sub_conn: Optional[Dict] = None) -> None:
+    def SendAckToSub(udp_unicast_sock: socket,
+                     ip_addr: str,
+                     port_num: int) -> None:
         udp_unicast_sock.sendto(b'ACK', (ip_addr, port_num))
